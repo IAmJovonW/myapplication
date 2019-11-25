@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp">
+
+    <TextView
+        android:id="@+id/CartID"
+        android:layout_width="80dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="124dp"
+        android:layout_height="44dp"
+        android:layout_alignStart="@id/CartID"
+        android:layout_alignLeft="@id/CartID"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:gravity="center"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/Status_drop"
+        android:layout_width="180dp"
+        android:layout_height="44dp"
+        android:layout_alignStart="@id/tvStatus"
+        android:layout_alignLeft="@id/tvStatus"
+        android:layout_marginStart="138dp"
+        android:layout_marginLeft="138dp"
+        android:entries="@array/status"
+        android:prompt="@string/carts_status" />
+</RelativeLayout>

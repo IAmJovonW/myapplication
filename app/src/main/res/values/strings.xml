@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">GoFu</string>
+    <string name="welcome_to_gofu">Welcome to GoFu</string>
+    <string name="login">Login</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email_username">Enter Email/Username</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logo">Logo</string>
+    <string name="save">Save</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone #</string>
+    <string name="dob">DOB</string>
+    <string name="rattler_id">Rattler ID</string>
+    <string name="Signup">Sign Up!</string>
+    <string name="update_carts">Update Carts</string>
+    <string name="maintaince_status_cart_update">Maintaince Status Cart Update</string>
+    <string name="cart_id_cart_status">Cart ID Cart Status</string>
+    <string name="cart_id">Cart ID</string>
+    <string name="cart_status">Cart_Status</string>
+    <string name="workorder_status">Workorder Status</string>
+
+    <string-array name="cartid">
+        <item>fam1</item>
+        <item>fam2</item>
+        <item>fam3</item>
+        <item>fam4</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Out of Service</item>
+        <item>Available</item>
+    </string-array>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="todo">TODO</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="more">More</string>
+    <string name="logout">Logout</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="account_fragment">Account Fragment</string>
+    <string name="more_fragment">More Fragment</string>
+    <string name="carts_status">Carts Status</string>
+    <string name="carts_current_status">Carts Current Status</string>
+    <string name="cart_ids">Cart IDs</string>
+    <string name="current_status">Current Status</string>
+    <string name="update_status">Update Status</string>
+
+
+</resources>
